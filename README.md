@@ -1,16 +1,29 @@
-# React + Vite
+Github Linki: https://github.com/perezexe/hayal-garajim-todoapp
+#  Hayal Garajım (Dream Garage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hayalinizdeki araba koleksiyonunu yönetmek için geliştirilmiş, modern ve şık arayüze sahip bir React uygulamasıdır. Kullanıcılar hayal ettikleri araçları ekleyebilir, listeleyebilir ve güncelleyebilirler.
 
-Currently, two official plugins are available:
+##  Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Araç Ekleme:** Marka, model ve renk bilgilerini girerek yeni araçlar ekleyebilirsiniz.
+-   **Araç Listeleme:** Garajınızdaki tüm araçları kart tasarımıyla görüntüleyin.
+-   **Güncelleme:** Mevcut araç bilgilerini istediğiniz zaman düzenleyin.
+-   **Responsive Tasarım:** Tailwind CSS sayesinde hem mobil hem de masaüstü cihazlarda kusursuz görünüm.
+-   **Hızlı Performans:** Vite altyapısı ile yıldırım hızında çalışma.
 
-## React Compiler
+##  Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **React (JSX):** Bileşen tabanlı kullanıcı arayüzü.
+-   **Tailwind CSS:** Modern ve hızlı stil yönetimi.
+-   **Vite:** Yeni nesil frontend araç zinciri.
+-   **JavaScript:** Uygulama mantığı ve veri yönetimi.
 
-## Expanding the ESLint configuration
+##  Klasör Yapısı
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── Components/     # CarForm, CarItem gibi tekrar kullanılabilir bileşenler
+├── Pages/          # HomePage gibi sayfa yapıları
+├── Interfaces/     # Veri modelleri ve tip tanımlamaları
+├── assets/         # Görsel ve stil dosyaları
+└── App.jsx         # Ana uygulama bileşeni
